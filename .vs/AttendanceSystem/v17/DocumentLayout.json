@@ -11,32 +11,12 @@
       "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\migrations\\20250417200858_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\migrations\\20250417200858_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\views\\attendance\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\views\\attendance\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\models\\entities\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\models\\entities\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\attendancesystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\attendancesystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\data\\applicationdbconetxt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\data\\applicationdbconetxt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Views\\Attendance\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AttendanceSystem\\Views\\Attendance\\Edit.cshtml",
+              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Views\\Attendance\\Edit.cshtml",
+              "RelativeToolTip": "AttendanceSystem\\Views\\Attendance\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T16:30:06.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AttendanceSystem\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "AttendanceSystem\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T16:30:02.76Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -56,9 +62,9 @@
               "RelativeDocumentMoniker": "AttendanceSystem\\Controllers\\AttendanceController.cs",
               "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Controllers\\AttendanceController.cs",
               "RelativeToolTip": "AttendanceSystem\\Controllers\\AttendanceController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAPDMzMzPjvxcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T20:15:04.722Z",
+              "WhenOpened": "2025-04-23T08:37:09.541Z",
               "EditorCaption": ""
             },
             {
@@ -69,100 +75,9 @@
               "RelativeDocumentMoniker": "AttendanceSystem\\Controllers\\StudentController.cs",
               "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Controllers\\StudentController.cs",
               "RelativeToolTip": "AttendanceSystem\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwD4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T20:14:10.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250417200858_InitialMigration.cs",
-              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Migrations\\20250417200858_InitialMigration.cs",
-              "RelativeDocumentMoniker": "AttendanceSystem\\Migrations\\20250417200858_InitialMigration.cs",
-              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Migrations\\20250417200858_InitialMigration.cs",
-              "RelativeToolTip": "AttendanceSystem\\Migrations\\20250417200858_InitialMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T20:08:58.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AttendanceSystem",
-              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
-              "RelativeDocumentMoniker": "AttendanceSystem\\AttendanceSystem.csproj",
-              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
-              "RelativeToolTip": "AttendanceSystem\\AttendanceSystem.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-17T19:45:21.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "AttendanceSystem\\appsettings.json",
-              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\appsettings.json",
-              "RelativeToolTip": "AttendanceSystem\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-17T08:19:25.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Program.cs",
-              "RelativeDocumentMoniker": "AttendanceSystem\\Program.cs",
-              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Program.cs",
-              "RelativeToolTip": "AttendanceSystem\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T08:17:57.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Student.cs",
-              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Models\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "AttendanceSystem\\Models\\Entities\\Student.cs",
-              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Models\\Entities\\Student.cs",
-              "RelativeToolTip": "AttendanceSystem\\Models\\Entities\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T17:38:33.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Attendance.cs",
-              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Models\\Entities\\Attendance.cs",
-              "RelativeDocumentMoniker": "AttendanceSystem\\Models\\Entities\\Attendance.cs",
-              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Models\\Entities\\Attendance.cs",
-              "RelativeToolTip": "AttendanceSystem\\Models\\Entities\\Attendance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T17:37:59.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDbConetxt.cs",
-              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Data\\ApplicationDbConetxt.cs",
-              "RelativeDocumentMoniker": "AttendanceSystem\\Data\\ApplicationDbConetxt.cs",
-              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Data\\ApplicationDbConetxt.cs",
-              "RelativeToolTip": "AttendanceSystem\\Data\\ApplicationDbConetxt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T10:04:45.911Z",
+              "WhenOpened": "2025-04-22T19:11:24.831Z",
               "EditorCaption": ""
             }
           ]

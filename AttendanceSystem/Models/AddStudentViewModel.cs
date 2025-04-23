@@ -1,8 +1,7 @@
-﻿namespace AttendanceSystem.Models.Entities
+﻿namespace AttendanceSystem.Models
 {
-    public class Student
+    public class AddStudentViewModel
     {
-
         public int Id { get; set; }
         public string Name { get; set; }
         public int Roll { get; set; }

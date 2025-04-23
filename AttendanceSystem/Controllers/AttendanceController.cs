@@ -1,83 +1,78 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AttendanceSystem.Data;
+using AttendanceSystem.Models;
+using AttendanceSystem.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AttendanceSystem.Controllers
 {
     public class AttendanceController : Controller
     {
-        // GET: AttendanceController
-        public ActionResult Index()
+        private readonly ApplicationDbContext dbContext;
+        public AttendanceController(ApplicationDbContext dbContext)
+        {
+            this.dbContext = dbContext;
+        }
+        [HttpGet]
+        public IActionResult Add()
         {
             return View();
         }
-
-        // GET: AttendanceController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: AttendanceController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: AttendanceController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<IActionResult> Add(AddAttendanceViewModel addAttendanceViewModel)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var attendance = new Attendance
+                {
+                    Id = addAttendanceViewModel.Id,
+                    StudentId = addAttendanceViewModel.StudentId
+                };
+                await dbContext.Attendance.AddAsync(attendance);
+                await dbContext.SaveChangesAsync();
             }
-            catch
+            catch(Exception ex)
             {
-                return View();
-            }
-        }
 
-        // GET: AttendanceController/Edit/5
-        public ActionResult Edit(int id)
-        {
+            }
+
             return View();
         }
-
-        // POST: AttendanceController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        [HttpGet]
+        public async Task<IActionResult> List()
         {
-            try
+            var attendance = await dbContext.Attendance.ToListAsync();
+            return View(attendance);
+        }
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var attendance = await dbContext.Attendance.FindAsync(id);
+            return View(attendance);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Edit(Attendance edit)
+        {
+            var attendance = await dbContext.Attendance.FindAsync(edit.Id);
+            if (attendance != null)
             {
-                return RedirectToAction(nameof(Index));
+                attendance.Id = edit.Id;
+                attendance.StudentId = edit.StudentId;
+                await dbContext.SaveChangesAsync();
             }
-            catch
-            {
-                return View();
-            }
+            return RedirectToAction("List", "Attendance"); //action method=list, controller=attendance
         }
 
-        // GET: AttendanceController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: AttendanceController/Delete/5
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public async Task<IActionResult> Delete(Attendance delete)
         {
-            try
+            var attendance = await dbContext.Attendance.AsNoTracking().FirstOrDefaultAsync(x => x.Id == delete.Id);
+            if (attendance != null)
             {
-                return RedirectToAction(nameof(Index));
+                dbContext.Attendance.Remove(delete);
+                await dbContext.SaveChangesAsync();
             }
-            catch
-            {
-                return View();
-            }
+            return RedirectToAction("List", "Attendance"); //action method=list, controller=attendance
         }
     }
 }

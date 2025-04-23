@@ -1,83 +1,72 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AttendanceSystem.Data;
+using AttendanceSystem.Models;
+using AttendanceSystem.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AttendanceSystem.Controllers
 {
     public class StudentController : Controller
     {
-        // GET: StudentController
-        public ActionResult Index()
+        private readonly ApplicationDbContext dbContext;
+        public StudentController(ApplicationDbContext dbContext)
+        {
+            this.dbContext= dbContext;
+        }
+        [HttpGet]
+        public IActionResult Add()
         {
             return View();
         }
-
-        // GET: StudentController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: StudentController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: StudentController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<IActionResult> Add(AddStudentViewModel addStudentViewModel )
         {
-            try
+            var student = new Student
             {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+                Id = addStudentViewModel.Id,
+                Name = addStudentViewModel.Name,
+                Roll = addStudentViewModel.Roll
+            };
+            await dbContext.Students.AddAsync(student);
+            await dbContext.SaveChangesAsync();
 
-        // GET: StudentController/Edit/5
-        public ActionResult Edit(int id)
-        {
             return View();
         }
-
-        // POST: StudentController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        [HttpGet]
+        public async Task<IActionResult> List()
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            var students = await dbContext.Students.ToListAsync(); 
+            return View(students);
         }
 
-        // GET: StudentController/Delete/5
-        public ActionResult Delete(int id)
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
         {
-            return View();
+            var student=await dbContext.Students.FindAsync(id);
+            return View(student);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Edit(Student edit)
+        {
+            var student = await dbContext.Students.FindAsync(edit.Id);
+            if (student != null) { 
+                student.Id = edit.Id;
+                student.Name = edit.Name;
+                student.Roll = edit.Roll;
+                await dbContext.SaveChangesAsync();
+            }
+            return RedirectToAction("List","Student"); //action method=list, controller=student
         }
 
-        // POST: StudentController/Delete/5
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public async Task<IActionResult> Delete(Student delete)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
+            var student = await dbContext.Students.AsNoTracking().FirstOrDefaultAsync(x => x.Id==delete.Id);
+            if (student != null) {
+                dbContext.Students.Remove(delete);
+                await dbContext.SaveChangesAsync(); 
             }
-            catch
-            {
-                return View();
-            }
+            return RedirectToAction("List","Student"); //action method=list, controller=student
         }
     }
 }
