@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "E:\\projects\\AttendanceSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\views\\attendance\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\views\\attendance\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{124DEA50-D1DE-4243-B3E3-093FEF43641F}|AttendanceSystem\\AttendanceSystem.csproj|e:\\projects\\attendancesystem\\attendancesystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,56 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Views\\Attendance\\Edit.cshtml",
-              "RelativeDocumentMoniker": "AttendanceSystem\\Views\\Attendance\\Edit.cshtml",
-              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Views\\Attendance\\Edit.cshtml",
-              "RelativeToolTip": "AttendanceSystem\\Views\\Attendance\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T16:30:06.238Z",
+              "DocumentIndex": 0,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "AttendanceSystem\\Repositories\\Repository.cs",
+              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Repositories\\Repository.cs*",
+              "RelativeToolTip": "AttendanceSystem\\Repositories\\Repository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T20:32:21.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Views\\Student\\Edit.cshtml",
-              "RelativeDocumentMoniker": "AttendanceSystem\\Views\\Student\\Edit.cshtml",
-              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Views\\Student\\Edit.cshtml",
-              "RelativeToolTip": "AttendanceSystem\\Views\\Student\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T16:30:02.76Z",
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "AttendanceSystem\\Interfaces\\IRepository.cs",
+              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "AttendanceSystem\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T20:31:20.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AttendanceController.cs",
-              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Controllers\\AttendanceController.cs",
-              "RelativeDocumentMoniker": "AttendanceSystem\\Controllers\\AttendanceController.cs",
-              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Controllers\\AttendanceController.cs",
-              "RelativeToolTip": "AttendanceSystem\\Controllers\\AttendanceController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBgAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Program.cs",
+              "RelativeDocumentMoniker": "AttendanceSystem\\Program.cs",
+              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Program.cs",
+              "RelativeToolTip": "AttendanceSystem\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T08:37:09.541Z",
+              "WhenOpened": "2025-04-23T18:17:57.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AttendanceSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AttendanceSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T20:17:50.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "StudentController.cs",
               "DocumentMoniker": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "AttendanceSystem\\Controllers\\StudentController.cs",
               "ToolTip": "E:\\projects\\AttendanceSystem\\AttendanceSystem\\Controllers\\StudentController.cs",
               "RelativeToolTip": "AttendanceSystem\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwD4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T19:11:24.831Z",
               "EditorCaption": ""

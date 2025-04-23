@@ -44,12 +44,14 @@ namespace AttendanceSystem.Controllers
             var attendance = await dbContext.Attendance.ToListAsync();
             return View(attendance);
         }
+
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
             var attendance = await dbContext.Attendance.FindAsync(id);
             return View(attendance);
         }
+
         [HttpPost]
         public async Task<IActionResult> Edit(Attendance edit)
         {

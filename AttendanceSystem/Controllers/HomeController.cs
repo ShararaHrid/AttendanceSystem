@@ -1,6 +1,8 @@
 using System.Diagnostics;
 using AttendanceSystem.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using Serilog;
 
 namespace AttendanceSystem.Controllers
 {
@@ -15,6 +17,7 @@ namespace AttendanceSystem.Controllers
 
         public IActionResult Index()
         {
+            _logger.LogInformation("Visited Home Page");
             return View();
         }
 

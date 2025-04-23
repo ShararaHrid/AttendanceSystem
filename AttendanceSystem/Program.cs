@@ -1,7 +1,23 @@
 ﻿using AttendanceSystem.Data;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// 🔸 Set AUTOFAC as the DI container
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+
+// 🔸 Configure Serilog
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug()
+    .WriteTo.Console()
+    .WriteTo.File("Logs/log.txt", rollingInterval: RollingInterval.Day)
+    .Enrich.FromLogContext()
+    .CreateLogger();
+
+builder.Host.UseSerilog(); // 🔹 Hook Serilog into the app
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -9,6 +25,13 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySQL(builder.Configuration.GetConnectionString("AttendanceDB")!));
 
+// 🔸 Register your custom services or repositories in AUTOFAC
+builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
+{
+    // Example: Register a repository and a service
+    //containerBuilder.RegisterType<YourRepository>().As<IYourRepository>().InstancePerLifetimeScope();
+    //containerBuilder.RegisterType<YourService>().As<IYourService>().InstancePerLifetimeScope();
+});
 
 var app = builder.Build();
 
@@ -31,4 +54,16 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.Run();
+try
+{
+    Log.Information("Starting web application");
+    app.Run();
+}
+catch (Exception ex)
+{
+    Log.Fatal(ex, "Application start-up failed");
+}
+finally
+{
+    Log.CloseAndFlush();
+}
